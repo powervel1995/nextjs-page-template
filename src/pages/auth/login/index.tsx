@@ -1,13 +1,12 @@
-import { FC } from 'react';
 import { Form } from 'react-bootstrap';
+import { NextPageWithLayout } from '../../../interface/default.interface';
 import Styles from '../auth.module.css';
 
 interface PageProps {}
 
-const index: FC<PageProps> = () => {
+const index: NextPageWithLayout = ({}) => {
   return (
     <>
-      {' '}
       <div className={Styles.Auth_form_container}>
         <form className={Styles.Auth_form}>
           <div className={Styles.Auth_form_content}>
@@ -37,5 +36,9 @@ const index: FC<PageProps> = () => {
     </>
   );
 };
+
+// index.getLayout = (page: ReactElement) => {
+//   return <DashboardLayout>{page}</DashboardLayout>;
+// };
 
 export default index;
