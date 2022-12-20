@@ -2,7 +2,7 @@ import { Form } from 'react-bootstrap';
 import { NextPageWithLayout } from '../../../interface/default.interface';
 import Styles from '../auth.module.css';
 
-interface PageProps {}
+interface _PageProps {}
 
 const index: NextPageWithLayout = () => {
   return (
