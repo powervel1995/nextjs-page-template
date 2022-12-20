@@ -1,7 +1,7 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 
 interface PageProps {
-  children: JSX.Element;
+  children: ReactNode;
 }
 
 const DashboardLayout: FC<PageProps> = ({ children }) => {
