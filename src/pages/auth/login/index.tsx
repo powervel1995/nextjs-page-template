@@ -4,7 +4,7 @@ import Styles from '../auth.module.css';
 
 interface PageProps {}
 
-const index: NextPageWithLayout = ({}) => {
+const index: NextPageWithLayout = () => {
   return (
     <>
       <div className={Styles.Auth_form_container}>
